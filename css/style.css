@@ -1,0 +1,48 @@
+/* Exercício Nº1 */
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 70px;
+    color: white;
+    background-color: black;
+}
+button:hover{
+    background-color: lightblue;
+    transition: .5s;
+    color: black;
+}
+
+/* Exercício Nº2 */
+
+a.ex2{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.exe2{
+    background-color: lightblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    transition: .5s;
+}
+
+a.ex2:hover{
+    color: white;
+    background-color: black;
+    transition: .4s;
+    font-size: 28px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.exe2:hover{
+    background-color: lightcoral;
+    transition: .5s;
+}
