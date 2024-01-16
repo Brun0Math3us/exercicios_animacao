@@ -65,8 +65,117 @@ a.ex2:hover{
     display: block;
 }
 
+/* Exercício Nº3 */
 
+img{
+    width: 132px;
+    position: relative;
+}
 
+.moonkase{
+    animation-name: moonkase;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+}
+
+@keyframes moonkase{
+    from{left: 0%; position: absolute;}
+    to{left: 100%; position: absolute;}
+}
+
+.jvnq{
+    animation-name: jvnq;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-timing-function: linear;
+}
+
+@keyframes jvnq{
+    from{padding-left: 0%; position: absolute;}
+    to{padding-left: 100%; position: absolute;}
+}
+
+.calango{
+    animation-name: calango;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+}
+
+@keyframes calango{
+    from{left: 0%; position: absolute;}
+    to{left: 100%; position: absolute;}
+}
+
+.jean{
+    width: 110px;
+    animation-name: jean;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+    animation-timing-function: linear;
+}
+
+@keyframes jean{
+        from{left: 0%; position: absolute;}
+        to{left: 100%; position: absolute;}
+}
+
+.luba{
+    animation-name: luba;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+    animation-timing-function: linear;
+}
+
+@keyframes luba{
+    from{left: 0%; position: absolute;}
+    to{left: 100%; position: absolute;}
+}
+
+.renan{
+    animation-name: renan;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 8s;
+    animation-timing-function: linear;
+}
+
+@keyframes renan{
+    from{left: 0%; position: absolute;}
+    to{left: 100%; position: absolute;}
+}
+
+.cap{
+    animation-name: cap;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 9s;
+    animation-timing-function: linear;
+}
+
+@keyframes cap{
+    from{left: 0%; position: absolute;}
+    to{left: 100%; position: absolute;}
+}
+
+.alan{
+    animation-name: alan;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    animation-timing-function: linear;
+}
+
+@keyframes alan{
+    from{left: 0%; position: absolute;}
+    to{left: 100%; position: absolute;}
+}
 
 
 
