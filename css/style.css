@@ -67,9 +67,10 @@ a.ex2:hover{
 
 /* Exercício Nº3 */
 
-img{
+.exe3 img{
     width: 132px;
     position: relative;
+    visibility: hidden;
 }
 
 .moonkase{
@@ -81,8 +82,9 @@ img{
 }
 
 @keyframes moonkase{
-    from{left: 0%; position: absolute;}
-    to{left: 100%; position: absolute;}
+    0%{left: 0%; position: absolute; visibility: visible; width: 0px;}
+    5%{left: 5%; position: absolute;visibility: visible; width: 132px;}
+    100%{left: 100%; position: absolute;visibility: visible; width: 132px;}
 }
 
 .jvnq{
@@ -94,8 +96,9 @@ img{
 }
 
 @keyframes jvnq{
-    from{padding-left: 0%; position: absolute;}
-    to{padding-left: 100%; position: absolute;}
+    0%{left: 0%; position: absolute; visibility: visible; width: 0px;}
+    5%{left: 5%; position: absolute;visibility: visible; width: 132px;}
+    100%{left: 100%; position: absolute;visibility: visible; width: 132px;}
 }
 
 .calango{
@@ -107,12 +110,13 @@ img{
 }
 
 @keyframes calango{
-    from{left: 0%; position: absolute;}
-    to{left: 100%; position: absolute;}
+    0%{left: 0%; position: absolute; visibility: visible; width: 0px;}
+    5%{left: 5%; position: absolute;visibility: visible; width: 132px;}
+    100%{left: 100%; position: absolute;visibility: visible; width: 132px;}
 }
 
 .jean{
-    width: 110px;
+    width: 12px;
     animation-name: jean;
     animation-duration: 7s;
     animation-iteration-count: infinite;
@@ -121,8 +125,9 @@ img{
 }
 
 @keyframes jean{
-        from{left: 0%; position: absolute;}
-        to{left: 100%; position: absolute;}
+    0%{left: 0%; position: absolute; visibility: visible; width: 0px;}
+    5%{left: 5%; position: absolute;visibility: visible; width: 112px;}
+    100%{left: 100%; position: absolute;visibility: visible; width: 112px;}
 }
 
 .luba{
@@ -134,8 +139,9 @@ img{
 }
 
 @keyframes luba{
-    from{left: 0%; position: absolute;}
-    to{left: 100%; position: absolute;}
+    0%{left: 0%; position: absolute; visibility: visible; width: 0px;}
+    5%{left: 5%; position: absolute;visibility: visible; width: 132px;}
+    100%{left: 100%; position: absolute;visibility: visible; width: 132px;}
 }
 
 .renan{
@@ -147,8 +153,9 @@ img{
 }
 
 @keyframes renan{
-    from{left: 0%; position: absolute;}
-    to{left: 100%; position: absolute;}
+    0%{left: 0%; position: absolute; visibility: visible; width: 0px;}
+    5%{left: 5%; position: absolute;visibility: visible; width: 132px;}
+    100%{left: 100%; position: absolute;visibility: visible; width: 132px;}
 }
 
 .cap{
@@ -160,8 +167,9 @@ img{
 }
 
 @keyframes cap{
-    from{left: 0%; position: absolute;}
-    to{left: 100%; position: absolute;}
+    0%{left: 0%; position: absolute; visibility: visible; width: 0px;}
+    5%{left: 5%; position: absolute;visibility: visible; width: 132px;}
+    100%{left: 100%; position: absolute;visibility: visible; width: 132px;}
 }
 
 .alan{
@@ -173,11 +181,22 @@ img{
 }
 
 @keyframes alan{
-    from{left: 0%; position: absolute;}
-    to{left: 100%; position: absolute;}
+    0%{left: 0%; position: absolute; visibility: visible; width: 0px;}
+    5%{left: 5%; position: absolute;visibility: visible; width: 132px;}
+    100%{left: 100%; position: absolute;visibility: visible; width: 132px;}
 }
 
+/* Exercício Nº4 */
 
+.exe4 img{
+    width: 110px;
+    transition: 1s;
+    padding: 10px;
+}
 
+.exe4 img:hover{
+    width: 150px;
+    transition: 1s;
+}
 
 
