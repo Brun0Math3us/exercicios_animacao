@@ -226,3 +226,27 @@ a.ex2:hover{
     animation-timing-function: linear;
 }
 
+/* Exercício Nº6 */
+
+.conteiner{
+    height: 55px;
+    background-color: rgb(222, 222, 222);
+    position: relative;
+    margin: 50px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.conteiner .carregamento{
+    position: absolute;
+    background-color: lightcoral;
+    height: 100%;
+    animation: progresso 5s infinite;
+    border-radius: 15px;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes progresso{
+    0%{width: 0%; background-color: lightcoral;}
+    100%{width: 100%; background-color: lightblue;}
+}
