@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 /* Exercício Nº1 */
 
 button{
@@ -221,7 +225,7 @@ a.ex2:hover{
     margin-left: 70px;
     width: 250px;
     animation-name: alanzoka;
-    animation-duration: 1.1s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
